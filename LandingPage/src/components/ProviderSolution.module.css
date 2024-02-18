@@ -1,0 +1,469 @@
+.chevronButtonIcon {
+    height: 56px;
+    width: 56px;
+    position: relative;
+    z-index: 2;
+  }
+  .metricSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .firstdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 482px;
+  }
+  .seconddiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max: 482px;
+  }
+  .providerFrameChild {
+    height: 360px;
+    width: 436px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #002677;
+    display: none;
+    max-width: 100%;
+  }
+  .providerIcon {
+    height: 285.1px;
+    width: 40px;
+    position: relative;
+    z-index: 2;
+  }
+  .assetFrameChild {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 7px;
+    max-height: 100%;
+    width: 218px;
+    z-index: 3;
+  }
+  .asset111 {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 167px;
+    height: 124px;
+    overflow: hidden;
+    z-index: 4;
+  }
+  .assetFrame {
+    align-self: stretch;
+    height: 218px;
+    position: relative;
+  }
+  .groupFrame,
+  .providerFrame {
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 19px;
+    box-sizing: border-box;
+  }
+  .providerFrame {
+    width: 436px;
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 180px);
+    left: -228px;
+    border-radius: 20px;
+    background-color: #002677;
+    flex-direction: row;
+    align-items: center;
+    padding: 37px 52px 38px;
+    gap: 11px;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .chevronButtonChild {
+    height: 300px;
+    width: 664px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #fff;
+    display: none;
+    max-width: 100%;
+  }
+  .digitalAdoption {
+    margin: 0;
+    height: 44px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    z-index: 3;
+  }
+  .textFrame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 10px;
+  }
+  .adoption,
+  .portalapiediToCall {
+    margin: 0;
+  }
+  .portalapiediToCallAdoptioContainer {
+    align-self: stretch;
+    height: 44px;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    z-index: 3;
+  }
+  .portalAPICallAdoption {
+    margin: 0;
+    height: 29px;
+    width: 24px;
+  }
+  .keyComponentsButton1 {
+    height: 49px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+  }
+  .adoptionRateTrendingUp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13px;
+    margin-top: -10px;
+    font-size: 36px;
+    color: #002677;
+  }
+  .chevronButton2,
+  .providerPageFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .chevronButton2 {
+    width: 196px;
+    font-size: 16px;
+    color: #5a5a5a;
+  }
+  .providerPageFrame {
+    flex: 1;
+    gap: 20px;
+    min-width: 162px;
+  }
+  .myPracticeProfile {
+    height: 22px;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    z-index: 3;
+  }
+  .portalAPICallAdoption1 {
+    margin: 0;
+    height: 29px;
+    width: 24px;
+  }
+  .b {
+    height: 49px;
+    position: relative;
+    display: inline-block;
+    z-index: 3;
+  }
+  .chevronButtonInstance,
+  .portalAPICallAdoptionParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13px;
+    font-size: 36px;
+    color: #002677;
+  }
+  .chevronButtonInstance {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    min-width: 176px;
+    font-size: 16px;
+    color: #5a5a5a;
+  }
+  .chevronButton1 {
+    flex: 1;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 30px 50px 18px 132px;
+    box-sizing: border-box;
+    gap: 56px;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .chevronButtonIcon1 {
+    height: 56px;
+    width: 56px;
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 28px);
+    right: -28px;
+    object-fit: contain;
+    z-index: 3;
+  }
+  .chevronButton,
+  .chevronInstance {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .chevronButton {
+    width: 664px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .chevronInstance {
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .explore {
+    position: relative;
+    font-size: 12px;
+    font-family: "Optum Sans";
+    color: #002677;
+    text-align: center;
+  }
+  .keyComponentsButton11 {
+    cursor: pointer;
+    border: 2px solid #002677;
+    padding: 12px 16px 12px 20px;
+    background-color: #fff;
+    width: 113px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .keyComponentsButton11:hover,
+  .keyComponentsButton21:hover,
+  .keyComponentsButton3:hover,
+  .keyComponentsButton4:hover,
+  .keyComponentsButton5:hover,
+  .keyComponentsButton6:hover {
+    background-color: #e6e6e6;
+    border: 2px solid #3359ab;
+    box-sizing: border-box;
+  }
+  .explore1 {
+    position: relative;
+    font-size: 12px;
+    font-family: "Optum Sans";
+    color: #002677;
+    text-align: center;
+  }
+  .keyComponentsButton21 {
+    cursor: pointer;
+    border: 2px solid #002677;
+    padding: 12px 16px 12px 20px;
+    background-color: #fff;
+    flex: 1;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 99px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .explore2 {
+    position: relative;
+    font-size: 12px;
+    font-family: "Optum Sans";
+    color: #002677;
+    text-align: center;
+  }
+  .keyComponentsButton3 {
+    cursor: pointer;
+    border: 2px solid #002677;
+    padding: 12px 16px 12px 20px;
+    background-color: #fff;
+    width: 142px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .explore3 {
+    position: relative;
+    font-size: 12px;
+    font-family: "Optum Sans";
+    color: #002677;
+    text-align: center;
+  }
+  .keyComponentsButton4 {
+    cursor: pointer;
+    border: 2px solid #002677;
+    padding: 12px 16px 12px 20px;
+    background-color: #fff;
+    width: 142px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .explore4 {
+    position: relative;
+    font-size: 12px;
+    font-family: "Optum Sans";
+    color: #002677;
+    text-align: center;
+  }
+  .keyComponentsButton5 {
+    cursor: pointer;
+    border: 2px solid #002677;
+    padding: 12px 16px 12px 20px;
+    background-color: #fff;
+    width: 119px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .explore5 {
+    position: relative;
+    font-size: 12px;
+    font-family: "Optum Sans";
+    color: #fff;
+    text-align: center;
+  }
+  .keyComponentsButton6 {
+    cursor: pointer;
+    border: 2px solid #002677;
+    padding: 12px 16px 12px 20px;
+    background-color: #002677;
+    width: 138px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .keyComponentsButton6:hover {
+    background-color: #3359ab;
+  }
+  .keyComponentsButton2,
+  .providerButton {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .keyComponentsButton2 {
+    width: 892px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 17px;
+  }
+  .providerButton {
+    width: 920px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 60px;
+  }
+  .keyComponentsButton {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px 61px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: 32px;
+    color: #333;
+    font-family: "Optum Sans";
+  }
+  @media screen and (max-width: 925px) {
+    .digitalAdoption {
+      font-size: 26px;
+    }
+    .b,
+    .keyComponentsButton1 {
+      font-size: 29px;
+    }
+    .chevronInstance {
+      flex-wrap: wrap;
+    }
+    .providerButton {
+      gap: 60px;
+    }
+    .keyComponentsButton {
+      padding-bottom: 40px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .chevronButtonInstance {
+      flex: 1;
+    }
+    .chevronButton1 {
+      flex-wrap: wrap;
+      gap: 56px;
+      padding-left: 66px;
+      padding-right: 25px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .providerFrame {
+      flex-wrap: wrap;
+    }
+    .digitalAdoption {
+      font-size: 19px;
+    }
+    .b,
+    .keyComponentsButton1 {
+      font-size: 22px;
+    }
+    .chevronButton1 {
+      padding-left: 20px;
+      box-sizing: border-box;
+    }
+  }
+  

@@ -1,0 +1,69 @@
+.frameChild {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .frameItem {
+    width: 254px;
+    height: 178px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #fff;
+    display: none;
+  }
+  .analyticalSuite,
+  .comprehensive {
+    margin: 0;
+  }
+  .comprehensiveAnalyticalSuite {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 2;
+  }
+  .frameParent,
+  .rectangleParent {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    width: 254px;
+    border-radius: 20px;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 27px 36px 27px 37px;
+    gap: 12px;
+    z-index: 1;
+  }
+  .frameParent {
+    width: 892px;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: #002677;
+    font-family: "Optum Sans";
+  }
+  @media screen and (max-width: 450px) {
+    .comprehensiveAnalyticalSuite {
+      font-size: 19px;
+    }
+  }
+  

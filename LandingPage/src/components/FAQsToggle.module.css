@@ -1,0 +1,147 @@
+.fAQsQuestions {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.chevronRightFill0Wght500GrIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.whatIsJarvis {
+  height: 22px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}fAQsQuestions
+.fAQsQuestions1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.fAQsQuestions2 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.chevronRightFill0Wght500GrIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.needHelpLogging {
+  position: relative;
+  cursor: pointer;
+}
+.fAQsQuestions3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.fAQsQuestions4 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.chevronRightFill0Wght500GrIcon2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.willMyAccess {
+  position: relative;
+  cursor: pointer;
+}
+.fAQsQuestions5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.fAQsQuestions6 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.chevronRightFill0Wght500GrIcon3 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.ssoEnabled {
+  height: 22px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.fAQsQuestions7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.fAQsQuestions8 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.chevronRightFill0Wght500GrIcon4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.experiencingIssues {
+  position: relative;
+  cursor: pointer;
+}
+.fAQsQuestions9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.fAQsQuestions10 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+}
+.fAQsToggle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+  font-family: var(--font-optum-sans);
+}

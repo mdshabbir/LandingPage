@@ -1,0 +1,231 @@
+.footerChild {
+  width: 1440px;
+  height: 260px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.businessSolutions {
+  width: 146.5px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.crossFunctionalSolutions {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+}
+.footerLink {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.provider {
+  position: relative;
+  line-height: 22px;
+}
+.footerLink1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.consumer {
+  position: relative;
+  line-height: 22px;
+}
+.footerLink2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.claims {
+  position: relative;
+  line-height: 22px;
+}
+.footerLink3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.paymentIntegrity {
+  position: relative;
+  line-height: 22px;
+}
+.footerLink4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.businessSolutionsGroup,
+.fAQsQuestions1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.businessSolutionsGroup {
+  align-self: stretch;
+  gap: var(--gap-11xs);
+}
+.fAQsQuestions1 {
+  flex: 1;
+  gap: var(--gap-3xs);
+  min-width: 135px;
+}
+.support {
+  position: relative;
+  z-index: 1;
+}
+.crossFunctionalSolutions1 {
+  position: relative;
+  line-height: 22px;
+}
+.footerLink5,
+.supportLink {
+  display: flex;
+  justify-content: flex-start;
+}
+.footerLink5 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  z-index: 1;
+}
+.supportLink {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  min-width: 135px;
+}
+.externalLinks {
+  width: 112.3px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.crossFunctionalSolutions2 {
+  position: relative;
+  line-height: 22px;
+}
+.footerLink6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.provider1 {
+  position: relative;
+  line-height: 22px;
+}
+.footerLink7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.consumer1 {
+  position: relative;
+  line-height: 22px;
+}
+.eTAITeamLogo,
+.footerLink8,
+.rectangle {
+  display: flex;
+  justify-content: flex-start;
+}
+.footerLink8 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  z-index: 1;
+}
+.eTAITeamLogo,
+.rectangle {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rectangle {
+  align-self: stretch;
+  gap: var(--gap-11xs);
+}
+.eTAITeamLogo {
+  flex: 1;
+  gap: var(--gap-3xs);
+  min-width: 135px;
+}
+.etaiTeamLogo1Icon {
+  height: 72px;
+  width: 211px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.fAQsQuestions {
+  width: 932px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+}
+.developedByUhc,
+.footerBase {
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+}
+.footerBase {
+  width: 932px;
+  height: 1px;
+  background-color: var(--color-dimgray);
+}
+.developedByUhc {
+  width: 542px;
+  line-height: 22px;
+  text-align: center;
+  display: inline-block;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-mini) var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+  font-family: var(--font-optum-sans);
+}

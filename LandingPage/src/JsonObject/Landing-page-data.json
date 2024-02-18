@@ -1,0 +1,362 @@
+{
+    "businessAreas": [
+      
+      {
+        "title": "Provider",
+        "image_url_closed": "/assets/images/landing-view/po-collapsed.png",
+        "image_url_expanded": "/assets/images/landing-view/po-expanded.png",
+        "expanded_content": "Comprehensive Analytical Solutions generating insights for all Provider touchpoints, and helping the business achieve its goals.",
+        "micro_site_url": "/landing/provider-operations",
+        "authentic_micro_site_url": "/home/provider-operations",
+        "ilustration" : "./provider.png",
+        "micro_site_content": {
+          "what_we_do": [
+            {
+              "title": "Provider Satisfaction",
+              "content": "Enhance provider communication and deepen closed-loop experience, leading to faster issue resolution and improve Provider Satisfaction.",
+              "solutions": [
+                {
+                  "uid": "9026D685-F6AD-41B7-B514-9F35094DC41C",
+                  "componentName": "Call Classification Output",
+                  "componentDescription": ""
+                },
+                {
+                  "uid": "D31D5C2A-5988-4FAC-B4A6-2B242188353C",
+                  "componentName": "ACE - Smart Edits",
+                  "componentDescription": ""
+                }
+              ]
+            },
+            {
+              "title": "Proactive Issue Detection & Prevention",
+              "content": "Drive provider experience through proactive issue detection analytics, prevention, and business control management, through cross-enterprise collaborative initiative, resulting in fewer calls, escalations and decreased claim rework. Aligning Early Warning System capabilities across touchpoints and expanding proactive analytics within Jarvis.",
+              "solutions": [
+                {
+                  "uid": "B74E4F6C-E14F-4081-B643-6F16EA38292A",
+                  "componentName": "Claim End to End Tracker",
+                  "componentDescription": ""
+                },
+                {
+                  "uid": "64BFAE4D-8FCA-4CC6-9362-60252CE860BB",
+                  "componentName": "EWS Dashboard - Denial",
+                  "componentDescription": ""
+                }
+              ]
+            },
+            {
+              "title": "Digital/Self Service Adoption",
+              "content": "Focus on streamlining and simplifying UHC Provider Portal, EDI and API capabilities End-to-End, for a seamless and simple experience in shifting from costly call and mail channels. This will help in achieving the overarching Call Obviation goals.",
+              "solutions": [
+                {
+                  "uid": "3F808B4F-3FB2-4B13-A5F5-741542EAC561",
+                  "componentName": "Provider Analytics & Insights",
+                  "componentDescription": "Description will be provided by the respective Team."
+                },
+                {
+                  "uid": "E774F452-1478-4873-813D-9DEAF94ABBDA",
+                  "componentName": "Segmentation Builder",
+                  "componentDescription": "Description will be provided by the respective Team."
+                }
+              ]
+            },
+            {
+              "title": "Operational Cost Reduction",
+              "content": "Enabling paper-free, digital-first self-service options for our providers to provide and receive medical records and provider documentation thereby reducing administrative burden, eliminating wasteful cost, and empowering faster care and reimbursement decisioning.",
+              "solutions": [
+                {
+                  "uid": "A3AE5D35-950E-4862-A845-A5D3ABF2C4D8",
+                  "componentName": "ACE Edits Unrepaired",
+                  "componentDescription": ""
+                },
+                {
+                  "uid": "D27D3BD9-F1D8-4F40-9477-DC539A2EA8EB",
+                  "componentName": "Provider Intelligent Engagement",
+                  "componentDescription": ""
+                },
+                {
+                  "uid": "3F808B4F-3FB2-4B13-A5F5-741542EAC561",
+                  "componentName": "Provider Analytics & Insights",
+                  "componentDescription": "Description will be provided by the respective Team."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Consumer",
+        "image_url_closed": "/assets/images/landing-view/consumers-collapsed.png",
+        "image_url_expanded": "/assets/images/landing-view/consumers-expanded.png",
+        "expanded_content": "Analytical Solutions generating insights for all Consumer touchpoints vis-à-vis the corresponding Providers.",
+        "micro_site_url": "/landing/consumer",
+        "authentic_micro_site_url": "/home/consumer",
+        "ilustration" : "./consumer.png",
+        "micro_site_content": {
+          "what_we_do": [
+            {
+              "title": "Assess the Impact",
+              "content": "<ul><li>Listen to consumer feedback.</li><li>Assess if there has been a shift in consumer perceptions.</li><li>Analyze competitive positioning.</li><li>Measure/Monitor metrics.</li></ul>",
+              "solutions": [
+                {
+                  "uid": "83F515A8-11D1-4AE7-9CEA-9F27EA258BB9",
+                  "componentName": "Key Performance Indicators",
+                  "componentDescription": ""
+                }
+              ]
+            },
+            {
+              "title": "Understand the Consumer",
+              "content": "<ul><li>Conduct quantitative, qualitative and human-centered design research</li><li>Define key NPS and experiential drivers.</li><li>Understand consumer behavior that drives adverse decisions.</li><li>Assess what is working today and where the gaps are</li></ul>",
+              "solutions": [
+                {
+                  "uid": "B0F0F83C-360E-4C7B-9C64-AB6BD75670F1",
+                  "componentName": "FedEx and Walgreens",
+                  "componentDescription": "Solution to monitor engagement activity, operational/clinical performance, member experience for complex families for FedEx and Walgreens clients supported under Complex ASO Program which was rolled out in Janâ€™2021."
+                }
+              ]
+            },
+            {
+              "title": "Engineer the Experience",
+              "content": "<ul><li>Identify opportunities for simplification, gap closure and experience optimization</li><li>Set end-to-end strategies and tactics.</li><li>Focus on full ecosystem including key influencers (e.g., physicians).</li><li>Develop value added products</li></ul>",
+              "solutions": [
+                {
+                  "uid": "A3C0192E-B53B-4215-9147-4D32CED7D9B0",
+                  "componentName": "C3 Member Profiling - Pre PSU",
+                  "componentDescription": ""
+                },
+                {
+                  "uid": "FAEDCDFE-611C-49E5-AB33-12B4C222BCD1",
+                  "componentName": "C3 Member Profiling - Post PSU",
+                  "componentDescription": ""
+                }
+              ]
+            },
+            {
+              "title": "Organize to Deliver",
+              "content": "<ul><li>Secure resources, Infuse into culture, communicate.</li><li>Understand impacts, tradeoffs and ensure no duplication. Enhance consumer data, analytics & infrastructure. Solidify the foundation.</li><li>Understand existing tools, get capital, partner with IT and Ops. Invest in Modeling, AI and Machine Learning.</li><li>Work across the enterprise to implement.</li></ul>",
+              "solutions": [
+                {
+                  "uid": "83F515A8-11D1-4AE7-9CEA-9F27EA258BB9",
+                  "componentName": "Key Performance Indicators",
+                  "componentDescription": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Claims",
+        "image_url_closed": "/assets/images/landing-view/claims-collapsed.png",
+        "image_url_expanded": "/assets/images/landing-view/claims-expanded.png",
+        "expanded_content": "Collaborate with UHC operation to develop and deliver innovative analytics & automation solutions for  improving transactions processing outcomes in a timely and efficiently manner in turn improving customer experience",
+        "micro_site_url": "/landing/claims",
+        "authentic_micro_site_url": "/home/claims",
+        "ilustration" : "./claim.png",
+        "micro_site_content": {
+          "what_we_do": [
+            {
+              "title": "Collaboration with UHC Leadership",
+              "content": "Collaborating with different UHC verticals like UHC Transformation, Enterprise Performance Operations, UHC claims and Provider organizations to better understand their key issues and translating into the value driven opportunities",
+              "solutions": [
+                {
+                  "uid": "E49A1D5E-3772-4861-B51D-94BEFC12BD3A",
+                  "componentName": "NICE - Corporate FSA Dashboard",
+                  "componentDescription": "First Service Accuracy (FSA) is meeting the expectations of respective constituents by resolving an accurately submitted claim appropriately, timely and thoroughly upon initial receipt."
+                },
+                {
+                  "uid": "35E86692-B23E-4A9E-B760-F046DE5D54B6",
+                  "componentName": "E&I - Corporate FSA Dashboard",
+                  "componentDescription": "First Service Accuracy (FSA) is meeting the expectations of respective constituents by resolving an accurately submitted claim appropriately, timely and thoroughly upon initial receipt."
+                },
+                {
+                  "uid": "8A3BA707-4208-46AB-8A70-9A0E60FD32B3",
+                  "componentName": "M&R - Corporate FSA Dashboard",
+                  "componentDescription": "First Service Accuracy (FSA) is meeting the expectations of respective constituents by resolving an accurately submitted claim appropriately, timely and thoroughly upon initial receipt."
+                }
+              ]
+            },
+            {
+              "title": "Improving transaction Efficiency / Timeliness and Quality",
+              "content": "Continue working with transactions operations to identify opportunities and working towards improving the end outcome of the widgets",
+              "solutions": [
+                {
+                  "uid": "4DA0203A-8D03-4EA9-B890-482225DE2609",
+                  "componentName": "Digital Penetration Dashboard",
+                  "componentDescription": "A summary overview of digital penetration in Claims, Appeals & Recons across different LOB/Platform."
+                },
+                {
+                  "uid": "3EC76207-4DE2-43A4-9F8C-16CC772D9F9D",
+                  "componentName": "Recons Landscape",
+                  "componentDescription": "A summary overview of Recons in terms of Platform, Intake Channel , Provider Network & Type etc."
+                }
+              ]
+            },
+            {
+              "title": "Maximize Enterprise Value",
+              "content": "Partnering with different UHC leaders across line of business to support the growth agenda, quantify and optimize how we manage transactions to ensure we are maximizing total enterprise value as opposed to focusing solely on admin cost containment",
+              "solutions": [
+                {
+                  "uid": "43D2B05F-DF6C-4495-936A-75C950F3FFD4",
+                  "componentName": "Resubmissions Dashboard",
+                  "componentDescription": "Ability to track resubmission by different category."
+                }
+              ]
+            },
+            {
+              "title": "Superior Cost Structure",
+              "content": "Partnering with UHC ops where it makes sense to provide analytics to keep cost low",
+              "solutions": [
+                {
+                  "uid": "5C0F6477-4EF6-48E9-B7B9-809F6AAC4A48",
+                  "componentName": "Risk Analysis Tool",
+                  "componentDescription": "Month on Month comparison of abrupt trends."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "Payment Integrity",
+        "image_url_closed": "/assets/images/landing-view/pi-collapsed.png",
+        "image_url_expanded": "/assets/images/landing-view/pi-expanded.png",
+        "expanded_content": "FWAE based insights and analytical solutions helping our Payment Integrity partners achieve their business goals.",
+        "micro_site_url": "/landing/payment-integrity",
+        "authentic_micro_site_url": "/home/payment-integrity",
+        "ilustration" : "./payment-integrity.png",
+        "micro_site_content": {
+          "what_we_do": [
+            {
+              "title": "Improve medical cost savings",
+              "content": "Support Payment Integrity business operations with affordability targets by identifying and narrowing gaps in medical cost savings with advanced analytics and concept research.",
+              "solutions": [
+                {
+                  "uid": "C7856890-4F10-4589-AE53-EA14787965CE",
+                  "componentName": "Audit Performance Summary (COSMOS PIPPA)",
+                  "componentDescription": "An executive level summary to keep a track of performance of the HDC Cosmos solution in team in terms of savings, error capture rate and review rate."
+                },
+                {
+                  "uid": "BB3A3F2E-E102-446C-A15F-05E031C3400E",
+                  "componentName": "Audit Performance Summary (CSP PIPPA)",
+                  "componentDescription": "An executive level summary to keep a track of performance of the HDC CSP solution in team in terms of savings, error capture rate and review rate."
+                }
+              ]
+            },
+            {
+              "title": "Drive operational cost optimization",
+              "content": "Improve operational efficiencies to reduce audit false positives, create capacity to work on better leads on FWAE side.",
+              "solutions": [
+                {
+                  "uid": "92E346D0-041D-4C29-BCD8-53801C5808BF",
+                  "componentName": "Provider Pricing Dashboard",
+                  "componentDescription": "This dashboard would enables users to identify egregious billing for both in and out-of network providers."
+                }
+              ]
+            },
+            {
+              "title": "Transition towards Medical Cost Avoidance & Prevention",
+              "content": "Shift PI controls upstream to Provider's office or UHC front door to get away from historical model of pay and chase to preventing errors upstream and giving providers opportunity to correct errors wherever applicable.",
+              "solutions": [
+                {
+                  "uid": "324B069F-5802-49EC-8A24-83FC2CFE1718",
+                  "componentName": "Inventory Distribution 360 Degree",
+                  "componentDescription": "This view has been specially curated to deep drill into defect and other error code level views to see exact root cause for inventory seasonality and change in claims distribution."
+                },
+                {
+                  "uid": "7D951863-0F29-4F13-8F05-F41F35D64BCE",
+                  "componentName": "Model Performance by Rank",
+                  "componentDescription": "To track the performance of the solution at the claims rank level and identifying the lost opportunity in form of high risk & high dollar bypass claims and these claims can be utilized by downstream teams who might be interested in using these bypass claims for their retro audits."
+                }
+              ]
+            },
+            {
+              "title": "Prevention against Healthcare Fraud, Waste & Abuse",
+              "content": "Support improvement in sophistication of Healthcare Fraud, Waste, Abuse and Error detection leveraging state of the art technology and AI solutions and also get to a stage where these detections can identify unknown or new schemes upstream to prevent heavy financial losses for UHC.",
+              "solutions": [
+                {
+                  "uid": "BF019A2E-590A-475F-8972-427901FBE3AF",
+                  "componentName": "EPV Model Dashboard",
+                  "componentDescription": "Enhanced Provider Verification Program aims to identify a new fraudulent TIN upon submission of first claim for payment."
+                },
+                {
+                  "uid": "EDF396AF-96FC-4B83-900F-D0C8CD90CDB7",
+                  "componentName": "Business Performance Summary",
+                  "componentDescription": ""
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+          "title": "Cross-Functional Solutions",
+          "verticalType": "Cross-Functional",
+          "image_url_closed": "/assets/images/landing-view/cross-functional-collapsed.png",
+          "image_url_expanded": "/assets/images/landing-view/cross-functional-expanded.png",
+          "expanded_content": "Cross-Functional collaborations between Provider, Consumer, Claims & Payment Integrity, leading to efficient and streamlined data science processes, while leveraging each team's unique strengths, to build key strategic analytical solutions, which benefit all businesses achieve their goals.",
+          "micro_site_url": "",
+          "authentic_micro_site_url": "/home/comprehensive-suite/Cross-Functional",
+          "ilustration" : "./cross-function.png"
+        }
+    
+  ],
+    "features": [
+      {
+        "title": "All-Inclusive",
+        "content": "View complete analytic insights generated by Sherlock investigation layer.",
+        "image_url": "./group-1@2x.png"
+      },
+      {
+        "title": "Comprehensive",
+        "content": "Grab a 360 degree picture of a provider, member, claim or consumer data.",
+        "image_url": "./group-2@2x.png"
+      },
+      {
+        "title": "Self-Service",
+        "content": "Create visualizations yourself to track trends & create simple reports.",
+        "image_url": "./group-3@2x.png"
+      }
+    ],
+    "usageMetric": [
+      {
+        "title": "Unique Visits",
+        "NumberOfVisits": "1,915",
+        "Date": "as of Dec 30, 2023"
+      },
+      {
+        "title": "# TIMES DASHBOARD VIEWED",
+        "NumberOfVisits": "213,628",
+        "Date": "as of Dec 30, 2023"
+      },
+      {
+        "title": "UNIQUE Dashboard Viewed",
+        "NumberOfVisits": "147",
+        "Date": "as of Dec 30, 2023"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Jarvis?",
+        "answer": "Jarvis is a robust and scalable AI-driven analytics platform running on real-time data from multiple sources generating insights at Claims, Provider and Member level."
+      },
+      {
+        "question": "Need help logging in?",
+        "answer": "On the unauthenticated experience, click on Onboarding on the top right hand menu to gain access to Jarvis. On the authenticated experience, click on Secure Access Guide on the bottom right hand corner to view the analytical solutions on Jarvis."
+      },
+      {
+        "question": "Will my access expire due to inactivity?",
+        "answer": "A user account gets deactivated automatically if the user didn’t open any of the dashboards in last 30 days. "
+      },
+      {
+        "question": "SSO enabled?",
+        "answer": "Login is enabled through organization based Single Sign-On."
+      },
+      {
+        "question": "Experiencing issues?",
+        "answer": "Click Contact Us in Jarvis, or email Jarvis_Support_DL@ds.uhc.com."
+      }
+    ]
+  }
+  
+  

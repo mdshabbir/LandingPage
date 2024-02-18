@@ -1,0 +1,47 @@
+.callVolume {
+    height: 22px;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  .frameInput {
+    margin: 0;
+    height: 29px;
+    width: 24px;
+  }
+  .b {
+    height: 49px;
+    position: relative;
+    display: inline-block;
+  }
+  .componentMetricTicker1,
+  .frameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 13px;
+    font-size: 36px;
+    color: #002677;
+  }
+  .componentMetricTicker1 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    z-index: 3;
+    text-align: left;
+    font-size: 16px;
+    color: #5a5a5a;
+    font-family: "Optum Sans";
+  }
+  @media screen and (max-width: 925px) {
+    .b {
+      font-size: 29px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .b {
+      font-size: 22px;
+    }
+  }
+  

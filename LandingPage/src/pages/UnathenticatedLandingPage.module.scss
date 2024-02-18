@@ -1,0 +1,172 @@
+$color_1: var(--color-dimgray);
+$color_2: var(--color-darkslategray);
+$font-family_1: inherit;
+$font-family_2: var(--font-optum-sans);
+$background-color_1: var(--color-white);
+
+.actionableInsightsFor {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	height: 41px;
+	font-size: inherit;
+	font-weight: 700;
+	font-family: $font-family_1;
+}
+.learnMoreOn {
+	position: relative;
+	display: inline-block;
+	font-size: var(--font-size-base);
+	color: $color_1;
+	max-width: 100%;
+}
+.frameRectanglechevronright {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: var(--gap-xs);
+	max-width: 100%;
+	width: 931px;
+	padding: 0 var(--padding-xl) var(--padding-34xl);
+	box-sizing: border-box;
+	gap: var(--gap-21xl);
+	text-align: left;
+	font-size: var(--font-size-11xl);
+	color: $color_2;
+	font-family: $font-family_2;
+}
+.whatisJarvis {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: var(--gap-xs);
+	max-width: 100%;
+}
+.whatJarvisDoes {
+	margin: 0;
+	height: 41px;
+	position: relative;
+	font-size: inherit;
+	font-weight: 700;
+	font-family: $font-family_1;
+	display: inline-block;
+}
+.allInclusiveParent {
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	align-self: stretch;
+	display: grid;
+	gap: var(--gap-xl);
+	grid-template-columns: repeat(3, minmax(213px, 1fr));
+}
+.header {
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-shrink: 0;
+	display: flex;
+	padding: 0 var(--padding-xl) 0 0;
+}
+.fAQs {
+	width: 932px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 0 var(--padding-xl) var(--padding-74xl);
+	box-sizing: border-box;
+	gap: var(--gap-41xl);
+	max-width: 100%;
+	text-align: left;
+	font-size: var(--font-size-11xl);
+	color: $color_2;
+	font-family: $font-family_2;
+}
+.faqs {
+	margin: 0;
+	height: 41px;
+	position: relative;
+	font-size: inherit;
+	font-weight: 700;
+	font-family: $font-family_1;
+	display: inline-block;
+}
+.faqsParent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	width: 932px;
+	padding: 0 var(--padding-xl) var(--padding-74xl);
+	box-sizing: border-box;
+	gap: var(--gap-21xl);
+	max-width: 100%;
+	text-align: left;
+	font-size: var(--font-size-11xl);
+	color: $color_2;
+	font-family: $font-family_2;
+}
+.unathenticatedLandingPage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	position: relative;
+	background-color: $background-color_1;
+	overflow: hidden;
+	gap: 27px;
+	letter-spacing: normal;
+}
+@media screen and (max-width: 925px) {
+	.actionableInsightsFor {
+		font-size: var(--font-size-5xl);
+	}
+	.whatJarvisDoes {
+		font-size: var(--font-size-5xl);
+	}
+	.fAQs {
+		gap: var(--gap-41xl);
+	}
+	.faqs {
+		font-size: var(--font-size-5xl);
+	}
+}
+@media screen and (max-width: 700px) {
+	.frameRectanglechevronright {
+		gap: var(--gap-21xl);
+		padding-bottom: var(--padding-15xl);
+		box-sizing: border-box;
+	}
+	.allInclusiveParent {
+		justify-content: center;
+		grid-template-columns: repeat(2, minmax(213px, 369px));
+	}
+	.fAQs {
+		padding-bottom: var(--padding-41xl);
+		box-sizing: border-box;
+	}
+	.faqsParent {
+		padding-bottom: var(--padding-41xl);
+		box-sizing: border-box;
+		gap: var(--gap-21xl);
+	}
+}
+@media screen and (max-width: 450px) {
+	.actionableInsightsFor {
+		font-size: var(--font-size-lg);
+	}
+	.whatJarvisDoes {
+		font-size: var(--font-size-lg);
+	}
+	.allInclusiveParent {
+		grid-template-columns: minmax(213px, 1fr);
+	}
+	.faqs {
+		font-size: var(--font-size-lg);
+	}
+}

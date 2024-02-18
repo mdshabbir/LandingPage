@@ -1,0 +1,203 @@
+.authenticatedProviderPageChild {
+    align-self: stretch;
+    height: 460px;
+    position: relative;
+    display: none;
+  }
+  .topNavBannerChild {
+    height: 40px;
+    width: 1440px;
+    position: relative;
+    background-color: #002677;
+    display: none;
+    max-width: 100%;
+  }
+  .jarvislogo1Icon {
+    width: 77.6px;
+    height: 30px;
+    position: relative;
+    object-fit: cover;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .jarvislogo1Wrapper {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .dashboards {
+    position: relative;
+    font-weight: 500;
+    z-index: 1;
+  }
+  .arrowDropDownFill1Wght500Icon {
+    height: 22.8px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 23px;
+    z-index: 1;
+  }
+  .dashboardsParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .recentlyViewed {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .frameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+  .helpFill1Wght500Grad0Opsz2Icon,
+  .notificationsFill1Wght500GrIcon,
+  .searchFill1Wght500Grad0OpsIcon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+    z-index: 1;
+  }
+  .assetsFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 10px 0 0;
+    gap: 20px;
+  }
+  .charlson {
+    height: 24px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    z-index: 1;
+  }
+  .arrowDropDownFill1Wght500Icon1 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+    z-index: 1;
+  }
+  .charlsonLabel,
+  .searchFill1Wght500Grad0OpsParent,
+  .topNavBanner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3px;
+  }
+  .searchFill1Wght500Grad0OpsParent,
+  .topNavBanner {
+    gap: 20px;
+  }
+  .topNavBanner {
+    align-self: stretch;
+    background-color: #002677;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 36px 5px 20px;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    font-family: "UHC2020 Sans";
+  }
+  .arrowBackFill1Wght500Grad0Icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+    cursor: pointer;
+  }
+  .providerSolutions {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .arrowBackFill1Wght500Grad0Parent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 100%;
+  }
+  .authenticatedProviderPage,
+  .keyComponentsButtonFrame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .keyComponentsButtonFrame {
+    width: 894px;
+    flex-direction: row;
+    padding: 0 42px 29px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .authenticatedProviderPage {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 59px;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 30px;
+    color: #002677;
+    font-family: "Optum Sans";
+  }
+  @media screen and (max-width: 925px) {
+    .frameParent {
+      display: none;
+    }
+    .providerSolutions {
+      font-size: 24px;
+    }
+    .keyComponentsButtonFrame {
+      padding-left: 21px;
+      padding-right: 21px;
+      box-sizing: border-box;
+    }
+    .authenticatedProviderPage {
+      gap: 59px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .providerSolutions {
+      font-size: 18px;
+    }
+  }
+  
