@@ -356,7 +356,115 @@
         "question": "Experiencing issues?",
         "answer": "Click Contact Us in Jarvis, or email Jarvis_Support_DL@ds.uhc.com."
       }
+    ],"providerSolution":[
+      {
+        "entity_name": "Call Volume",
+        "img_url":"public/assets/images/landing-view/newdesign/call-volume.svg",
+        "entity_value": [
+          {
+            "name": "TOTAL CALLS",
+            "value": "1,953,673"
+          },
+          {
+            "name": "TOTAL TINS",
+            "value": "188,740"
+          }
+          
+        ]
+      },
+      {
+        "entity_name": "Portal Interactions",
+        "img_url":"public/assets/images/landing-view/newdesign/portal-interaction.svg",
+        "entity_value": [
+          {
+            "name": "Total INTERACTIONS",
+            "value": "139,392,792"
+          },
+          {
+            "name": "Total TINs",
+            "value": "359,746"
+          },
+          { 
+            "name": "Total OHIDS",
+            "value": "709,667"
+          }
+        ]
+      },
+      {
+        "entity_name": "EDI Transactions",
+        "img_url":"public/assets/images/landing-view/newdesign/edi-transaction.svg",
+        "entity_value": [
+          {
+            "name": "Total Transactions",
+            "value": "295,423,477"
+          },
+          {
+            "name": "Total TINs/NPI",
+            "value": "1,124,504"
+          }
+        ]
+      },
+      {
+        "entity_name": "API Transactions",
+        "img_url":"public/assets/images/landing-view/newdesign/api-transaction.svg",
+        "entity_value": [
+          {
+            "name": "Total Transactions",
+            "value": "42,967,481"
+          },
+          {
+            "name": "Total TINS",
+            "value": "41,530"
+          },
+          {
+              "name" : "Total OHIDS",
+            "value": "154"
+          }
+        ]
+      },
+      {
+        "entity_name": "Chat Valume",
+        "img_url":"public/assets/images/landing-view/newdesign/chat-volume.svg",
+        "entity_value": [
+          {
+            "name": "Total Human Chats",
+            "value": "40753"
+          },
+          {
+            "name": "Total Bot Chats",
+            "value": "3426"
+          },
+          {
+            "name": "Total TINs",
+            "value": "1212"
+          }
+        ]
+      },
+      {
+        "entity_name": "digital adoption",
+        "img_url":"public/assets/images/landing-view/newdesign/digital-adoption1.svg",
+        "entity_value": [
+          {
+            "name": "OVERALL ADOPTION RATE",
+            "value": "98% "
+          },
+          {
+            "name": "PORTAL/API/EDITO CALL ADOPTION",
+            "value": "98.1%"
+          },
+          {
+            "name": "PAPERLESS ADOPTION",
+            "value": "91.2%"
+          },
+          {
+            "name": "MY PRACTICE PROFILE",
+            "value": "100%"
+          }
+        ]
+      }
+      
     ]
+    
   }
   
   

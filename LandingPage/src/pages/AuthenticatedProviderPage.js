@@ -4,8 +4,18 @@ import ProviderSolution from "../components/ProviderSolution";
 import data from "../JsonObject/Landing-page-data.json";
 import GroupComponent from "../components/GroupComponent";
 import FOOTER from "../components/FOOTER";
+import Slider from 'react-slick';
+
 
 const AuthenticatedProviderPage = () => {
+  const settings = {
+    // Customize settings based on your needs
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   const buttonValue = [
     "call volume",
     "Portal Interactions",
@@ -42,7 +52,11 @@ const AuthenticatedProviderPage = () => {
           <h1 className={styles.providerSolutions}>Provider Solutions</h1>
         </div>
       </div>
-      <ProviderSolution />
+      <Slider {...settings}>
+      {data.providerSolution.map((p,i)=>(
+      <ProviderSolution val={p} />
+      ))}
+      </Slider> 
 
       <div className={styles.keyComponentsButton2}>
         {/* {data.providerSolution.map((items, index) => (

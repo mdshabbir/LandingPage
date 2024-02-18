@@ -179,6 +179,7 @@
     color: #002677;
     font-family: "Optum Sans";
   }
+  
   @media screen and (max-width: 925px) {
     .frameParent {
       display: none;

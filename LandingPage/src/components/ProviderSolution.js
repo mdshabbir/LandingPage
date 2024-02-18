@@ -5,7 +5,7 @@ import GroupComponent from "./GroupComponent";
 import styles from "./ProviderSolution.module.css";
 // import data from "../JsonObject/LandingPage-data.json";
 
-const ProviderSolution = ({ data }) => {
+const ProviderSolution = ( props ) => {
   const navigate = useNavigate();
   // data.forEach((element) => {
   //   console.log(element.entity_name);
@@ -58,7 +58,7 @@ const ProviderSolution = ({ data }) => {
                     className={styles.assetFrameChild}
                     loading="eager"
                     alt=""
-                    src="/group-44.svg"
+                    src={props.val.img_url}
                   />
                   <img
                     className={styles.asset111}
@@ -72,15 +72,15 @@ const ProviderSolution = ({ data }) => {
               <div className={styles.chevronButtonChild} />
               <div className={styles.providerPageFrame}>
                 <div className={styles.textFrame}>
-                  <h1 className={styles.digitalAdoption}>Digital Adoption</h1>
+                  <h1 className={styles.digitalAdoption}>{props.val.entity_name}</h1>
                 </div>
                 <div className={styles.metricSection}>
-                  {metricData.map((value, index) => (
+                  {props.val.entity_value.map((value, index) => (
                     <ComponentMetricTicker
                       style={{ width: "202px" }}
                       key={index}
-                      callVolume={value.callVolume}
-                      prop={value.prop}
+                      callVolume={value.name}
+                      prop={value.value}
                       propPadding={value.propPadding}
                     />
                   ))}
